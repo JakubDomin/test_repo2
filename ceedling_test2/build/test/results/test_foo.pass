@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: test_foo.c
+:successes:
+- :test: test_foo_NeedToImplement
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.08732989995041862
