@@ -43,6 +43,16 @@ Installation of tools required for unit testing in Ceedling on Windows
 					:html_high_threshold: 90
 					# Keep only source files that match this filter. (gcovr --filter).
 					:report_include: "../../src/*"
+		- the same needs to be done for general path structure of tests:
+		:paths:
+		  :test:
+		    - +:test/**
+		    - -:test/support
+		  :source:
+		    - ../../src/**
+		  :support:
+		    - test/support
+		  :libraries: []
 
 
 Usage guide
