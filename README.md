@@ -1,4 +1,4 @@
-Instalation description of tools required for unit testing in Ceedling on Windows
+Installation of tools required for unit testing in Ceedling on Windows
 ========
 
 	gcc:
