@@ -1,4 +1,4 @@
-Ceedling ![CI](https://github.com/ThrowTheSwitch/Ceedling/workflows/CI/badge.svg)
+Ceedling
 ========
 Ceedling is a build system for C projects that is something of an extension 
 around Ruby’s Rake (make-ish) build system. Ceedling also makes TDD (Test-Driven Development) 
