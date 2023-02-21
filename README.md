@@ -1,12 +1,21 @@
 Description of instalation process of tools required for unit testing in Ceedling framework
 ========
-Ceedling is a build system for C projects that is something of an extension 
-around Ruby’s Rake (make-ish) build system. Ceedling also makes TDD (Test-Driven Development) 
-in C a breeze by integrating [CMock](https://github.com/throwtheswitch/cmock), 
-[Unity](https://github.com/throwtheswitch/unity), and 
-[CException](https://github.com/throwtheswitch/cexception) -- 
-three other awesome open-source projects you can’t live without if you're creating awesomeness 
-in the C language. Ceedling is also extensible with a handy plugin mechanism.
+
+	gcc - 
+	ruby: 
+		- versions newer than 3.0.* seem to have problems with common_defines alias
+		- ruby installer can be found on rubyinstaller.org
+		- ruby executables need to be in system PATH
+		- 
+	
+	git
+	mingw
+
+
+
+
+gem install ceedling - ceedling is one of the ruby's 'gems'
+gem install bundler - ensures you have all Rubygems needed
 
 Usage Documentation
 ===================
