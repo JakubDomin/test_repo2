@@ -20,8 +20,25 @@ Instalation description of tools required for unit testing in Ceedling on Window
 		- it will automatically install Ceedling, CMock, Unity and CException
 
 
-
-
-
-Usage Documentation
+Usage guide
 ===================
+
+	creating new project:
+		- ceedling new proj_name
+		- it creates a new directory with a basic structure for unit testing
+		├───src
+		└───test
+			└───support
+	
+	creating new module for testing:
+		- ceedling module:create[module_name]
+		- it creates empty module_name.c and module_name.h files in src directory, additionally creates
+		empty test file test_module_name.c in test directory
+
+	run tests:
+		- ceedling test:all - creates test report in command line without coverage reports
+		- ceedling gcov:all - creates test report with basic coverage report in command line
+		- ceedlng utils:gcov - creates .html files with detailed coverage reports
+		under <project_name>/build/artifacts/gcov
+		
+		
