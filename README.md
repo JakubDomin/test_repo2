@@ -1,4 +1,4 @@
-Ceedling
+Instalation guide of tools required for unit testing in Ceedling framework
 ========
 Ceedling is a build system for C projects that is something of an extension 
 around Ruby’s Rake (make-ish) build system. Ceedling also makes TDD (Test-Driven Development) 
