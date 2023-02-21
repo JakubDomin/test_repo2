@@ -19,6 +19,31 @@ Installation of tools required for unit testing in Ceedling on Windows
 			gem install ceedling
 		- it will automatically install Ceedling, CMock, Unity and CException
 
+	gcovr:
+		- if we need coverage reports for tests gcovr is required
+		- python is required for gcovr to work, it can be installed from Microsoft Store
+		- then run this command: 
+			pip install gcovr
+		- add gcov plugin to project.yml(after creating ceedling directory with ceedling new <name>)
+			:plugins:
+				:load_paths:
+					- "#{Ceedling.load_path}"
+				:enabled:
+					- stdout_pretty_tests_report
+					- module_generator
+					- gcov
+
+		- in case you change the basic file structure you add :report_include:
+		with a path to your source files:
+			    :gcov:
+				  :reports:
+					- HtmlDetailed
+				  :gcovr:
+					:html_medium_threshold: 75
+					:html_high_threshold: 90
+					# Keep only source files that match this filter. (gcovr --filter).
+					:report_include: "../../src/*"
+
 
 Usage guide
 ===================
