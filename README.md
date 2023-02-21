@@ -33,7 +33,7 @@ Installation of tools required for unit testing in Ceedling on Windows
 					- module_generator
 					- gcov
 
-		- in case you change the basic file structure you add :report_include:
+		- in case you change the basic file structure add :report_include:
 		with a path to your source files:
 			    :gcov:
 				  :reports:
